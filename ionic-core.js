@@ -291,9 +291,9 @@ angular.module('ionic.service.core', [])
 */
 .factory('$ionicUser', [
   '$q',
-  '$ionicCoreSettings',
   '$timeout',
   '$http',
+  '$ionicCoreSettings',
   'persistentStorage',
   '$ionicApp',
 function($q, $timeout, $http, $ionicCoreSettings, persistentStorage, $ionicApp) {
